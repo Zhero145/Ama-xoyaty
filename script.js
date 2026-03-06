@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", function () {
         // --- CUSTOMIZE VOLUME HERE ---
         // Change the volume here (0.0 is silent, 1.0 is max volume)
         // Example: 0.3 is 30% volume
-        bgMusic.volume = 0.004;
+        bgMusic.volume = 0.00;
 
         // Try to play immediately (modern browsers often block this unless the user has high engagement)
         const playPromise = bgMusic.play();
@@ -151,4 +151,5 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 });
+
 
